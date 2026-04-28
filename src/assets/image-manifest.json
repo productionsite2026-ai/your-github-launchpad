@@ -1,0 +1,1410 @@
+{
+  "card-attestation-entretien.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-attestation-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-attestation-entretien-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-attestation-entretien-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-attestation-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-attestation-entretien-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-attestation-entretien-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYAA8APxF4slEsJ6SisAgBgCIJYgCdIFzJX5Un6bfbNojUuHuAAP7c/8Mhug0GE/vjQafcMuUGPnmi9Be+fndGdyFMbPTVh3N+m4Mlr+Brte2wCWIXENR1SomBS+5i+/8Hvl+PEKpxtH+cmdQynSmG7Rep3S+YG8ncW6Xkcj62kG/JXMsi0vAVgJS6uQYAAAA="
+  },
+  "card-chaudiere-condensation-install.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-condensation-install-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-condensation-install-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-condensation-install-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-condensation-install-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADQBACdASoYABIAPxF6slIsKCSisBgIAYAiCWUAnSGLQRikcEHKII1DQ6BzI8bzAAD2svn817Qmqd2UM7cUEy0/6liDu9ZW5/EQ2IB5S19QiRMBTOeA27pc9+0QiTFxgockQ+aqvG4GzjZRcJuP8nW4bsgg8QMPWf8kIJhP10cpXzhXNQP8vHyJtEVdndTQ9ZrEfV0s8EwAAA=="
+  },
+  "card-chaudiere-condensation.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-condensation-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-condensation-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-chaudiere-condensation-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-condensation-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-condensation-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-chaudiere-condensation-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBACdASoYAA8APxFyslCsJqSisAgBgCIJYwC06BukS9kZxGm1kBfNgAD+3qRzNJOVizipJYWWZVeUB3OYwTB3+RTzSMaqsmQfkawxS8yJjzZWxXtTYTnFVnoO57fahBHCxXCO4bvR8yoHAwAAAA=="
+  },
+  "card-chaudiere-granules-entretien.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-granules-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-granules-entretien-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-granules-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-granules-entretien-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwBACdASoYABIAPxGAuFWsKCUjKAgBgCIJZQDGfA6/a7ZEOP/X2lzWFKBiBPHZhFAA/oIWV0evvxRwuW1IWavkCOIQvp3MeI0d6y3Oeo90qpFHz5BiBR8lVszzx1mCkC7rGXPsYVs/bMbjQpwumM55YzLhfUVtH4vDVLeh5D1ipagVEFR1otaAXxdPin4ZkRku5AAA"
+  },
+  "card-chaudiere-granules.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-granules-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-granules-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-chaudiere-granules-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-chaudiere-granules-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-chaudiere-granules-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-chaudiere-granules-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADQBACdASoYAA8APxFysFAsJqSisAgBgCIJaACdMoAvQBSHrfk5bES8xRVmIlrgAAD0PFHvzeRJzv1NoPh1/6PkbrI0KM2POKaP+I1IICoKQVVNnftR3h7b4QFdQ2Nztyc+5sjd2V10/l19l4+8rL2NKU41vxyqsmJU76GF3m03kAc557X3w5jCOCcpcjeXmmFhTshbAwWCL4AA"
+  },
+  "card-contrat-maintenance.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-contrat-maintenance-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-contrat-maintenance-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-contrat-maintenance-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-contrat-maintenance-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-contrat-maintenance-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-contrat-maintenance-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABQBQCdASoYAA8APxFysFAsJqSisAgBgCIJZACdMoRgC7mQ/xbHaTx0N/QfEBQkEgo/dAAA4lbPNlanZd29TVTuoiBo0crycaiIyetK9GH9UJFq9VS7xLfQ8Z5Y8CuiEW/eQ82W4e1jRjiZB8rahrI0nUv9EC+lVMdddtIX1QiCLWJv/wp/++LMoDw+hgY+xA9wFHu6/pbpMlHYv/Fmrth7yb58mp5RzouqfB5YfGUAAAAA"
+  },
+  "card-controle-gaz.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-controle-gaz-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-controle-gaz-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-controle-gaz-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-controle-gaz-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-controle-gaz-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-controle-gaz-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBACdASoYAA8APxFysFAsJqSisAgBgCIJbAC7IE02UAG7L8Ve8eyEncNoqAD9rqJYq+FNdmuYmzwX9ZKxfngPS3tQjciL/yKlUe3MfhmKDwQJd/NPxtswReqiqJOvszziQBoQrkgcr8qF4nJXrvBaFdclk1zzqLlgMydQROD6Ss1LlKulNP9ejvLQaC8hsLvO5NXYvuZKy/BfUo6shGFkz6z7P81AFkAAAA=="
+  },
+  "card-debouchage-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-debouchage-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-debouchage-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-debouchage-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-debouchage-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoYABIAPxF6t1OsJ6WiqAqpgCIJYwDM0ApT2OdvCBMDw2u58P5yImMAAPcquxPzcF7eoHp7wxzDsUuKZrB+0Dz32Znc2sGSFNJ6dE//XC/uPnPeJDZ5wN70i4ozShtIiBaDJHfKwXz1g8cs2jSWEapbCIL7E244t863d8cEtv5rDbyJioCMXIeBEX8AAA=="
+  },
+  "card-debouchage.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-debouchage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-debouchage-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-debouchage-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-debouchage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-debouchage-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-debouchage-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBACdASoYAA8APxFysFAsJqSisAgBgCIJQAB8ui3jZeJCtQJJPjgOAAD+wG7Lv3D2MlfxXMdqvx132yN0dgQUWoknbvmGp9bq58gyshHBCW4yMcdE8CZNtYnFgGdMTvGUCqVSVH9aWQZ/CEinmxlAhjHMe9tmfoW88bZowQ0O0f0SZoLj6/Fb6c4IPPa/g0xzPDD/ieKV3Jhv5E0BEusJCXz8AA=="
+  },
+  "card-depose-cuve-fioul.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-depose-cuve-fioul-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-depose-cuve-fioul-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-depose-cuve-fioul-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-depose-cuve-fioul-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-depose-cuve-fioul-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-depose-cuve-fioul-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoYAA8APxFysFAsJqSisAgBgCIJYwCo9CGR5+IQKoyjyXnIYAD+6U5sgMIWcjRZubTo1w9d2q0SWJ17gf5ApH2om90exWRffo0Mso/14AxDjmhX9FNBAbC+xFlM13U4vm8uMYtrZ3T9zJyiB2rH1xiL7v4qeeCYjKXm8wQe6g5AAA=="
+  },
+  "card-desembouage.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-desembouage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-desembouage-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-desembouage-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-desembouage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-desembouage-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-desembouage-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAwBACdASoYAA8APxFysFAsJqSisAgBgCIJbACdAB0lbHxRzooFS9y3knAA/IRUZ5LrphWndEbzotlNt0oO+TerPK6iIigL0LSVEbgZ2/rhH36HENk+skP/nUN9ig4aNTIurYd3CzJEF8yxF/n3B277E9zs/TZqp+ClFmgfDs5YXAsp/s6N5SvxwrQ+eNzZ+tq+en++bQX/6OTFR9sC9trCdmkqSymd49ec+70FD/vOTLM/DFxKWqv4YAA="
+  },
+  "card-entretien-bruleur-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwBACdASoYABIAPxF+slQsKCQjKAqpgCIJQBhuAiOUKnZjOjEv/XDx/g71eqAAAP7ujusUHb8t+yux482bFywA3mMoor7je3qtvOiXILnvrSNTG3IX/HC22fEuBjh+Qx+uvgZkcBsS4QAyHvK2xLpC7lTLJvTIBJbA2uLSMuFNBVTwwvuuSgAA"
+  },
+  "card-entretien-bruleur-entretien.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-entretien-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-entretien-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASoYABIAPxF0slKsJiSisBgIAYAiCUAWnz/8A0vGxkY/DtrVpgv+pT7j1F4CkCtAAP7Gt4yjtRpkzFPOI33k/zZCfFiWRUBUiIHEz4xxTtR8T0G7hB4oUlUtqcb9dgVqV++bAJNItzcKcgypv0r4M6EkPjojLTMTUDdBd8X3vOju2e8ZkTUM/J0YpiyOJADAD50Ox2iIX/77ZSXsNlVpXoqZQTmZNS3hZbfD5Ok7TUmzAWMMmAAAAA=="
+  },
+  "card-entretien-bruleur.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-entretien-bruleur-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-entretien-bruleur-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-entretien-bruleur-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-entretien-bruleur-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYAA8APxFysFAsJqSisAgBgCIJYwCw7CPwoiZXgSWQJtJ91A8AAP7meWptdK/936A4iOiNZaRgUVPXYcplSoremFwWNi1DAi1A9mkt7pPq9sn8Um6Wm/6HsHw4p1hoL1CfaJNt6WurTyqGl8Yoz70f3d+ri9ATsJIkAU/u5JlQR+f+fkmokAAA"
+  },
+  "card-fuite-evier-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-evier-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-evier-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-evier-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-evier-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBQCdASoYABIAPxF4t1OsJyWiqAqpgCIJZwDIXAuWJnA6Asz8bKF279yAHVfRmx/UAAD+MvUGjR+nRWsXesCzKQ0IqMq44XNaQPpPYuMiXTSspDPW/D+KaA9zQeCOQg9FeDdgFrYqXE8wX+CCEuM4DDre+bds0Gm/gEZlgAA="
+  },
+  "card-fuite-evier.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-evier-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-evier-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-fuite-evier-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-evier-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-evier-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-fuite-evier-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoYAA8APxFwsFAsJiSisAgBgCIJZQCw7CHgA7/NQFSZTAAA/u6Fiy3fQNeD4AnZGjXhb/2tMGNMRRFtNaXuDpIAAAA="
+  },
+  "card-fuite-radiateur.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-radiateur-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-radiateur-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-fuite-radiateur-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-fuite-radiateur-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-fuite-radiateur-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-fuite-radiateur-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBACdASoYAA8APxFysVAsJqSisAgBgCIJZAC+ViAAIYvbppUU12rb/0DAAP7nObeuVYwxNZeDnO8bUCaub95Xj6yJ0XBno13OmsrJ161MUYKBnJlNbRx2Mxxk3AcqY/HcX3N7dc2myal0icoGJoNYpBqXhihCW3lfVjNb9tYAcJmFUCvIf2vGMa0MeZMyhVyeGxVJG8rgAA=="
+  },
+  "card-hydrocurage-exterieur.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-hydrocurage-exterieur-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-hydrocurage-exterieur-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-hydrocurage-exterieur-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-hydrocurage-exterieur-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-hydrocurage-exterieur-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-hydrocurage-exterieur-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwAwCdASoYAA8APxFysFAsJqSisAgBgCIJQBWAMYsbJ9VizCRYlzEAAPyynNiOeKnTQxpx/7QtARv2JEh104Ns4hE2VgakAxcNLFrGp5WfoiMe8hQbYg5QwtzKPf1wn0In6bRNZZPEe/omk39aM3tlS3YHVGz3ckoEdoVWNE/SUKBuGi+SXUDSQg5ujI2MS5UYVi5oUbTi0+X+K+5FfSsC6MA0DnroAzcaDACqAAA="
+  },
+  "card-plancher-chauffant-install.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-plancher-chauffant-install-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-plancher-chauffant-install-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-plancher-chauffant-install-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-plancher-chauffant-install-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoYABIAPxF+slQsKCQjKAqpgCIJYwCnFAzoK6MTg8jLnjGUaMVUzHHgAAD+aSKPuXsgPpX8zw46tjryV4C0NMGk404pVUYYCyBCy7xqzRipkaFwsCyBw7MsUiDCAMiqocHnkUHvibFfu6MnW+XoW/u0e3Co9Mgfh2WLzHOii4MXvgPoAVHnPFTRtrec6e/KK+81DjCAAAA="
+  },
+  "card-plancher-chauffant.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-plancher-chauffant-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-plancher-chauffant-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-plancher-chauffant-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-plancher-chauffant-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-plancher-chauffant-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-plancher-chauffant-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABQBACdASoYAA8APxFysFAsJqSisAgBgCIJZgCdMoACskMd49V19BriMfaAANtpBNECBBfBgFuPJME3D32gA5obr5HG7qxfFsTWmr/lsopGUE6cpVi83z/vMfyQ/C6O709qfN2+F4hK3goVa/gl2TNIE4QHEjTQU998800Y2VysV8sR6kyjtpmhXMAlbAGAAAA="
+  },
+  "card-pompe-chaleur-entretien.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-entretien-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-entretien-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBQCdASoYABIAPxF+slSsKCQjKAqpgCIJQBihUDX/y7ADJO+mUbHITl0iYgzN4/KXORqyAAD+tIi42LFFYC1zU04K2vHuW+jyuYePff6dnkhUDGX20KOsa7G/FDFYTzohrzfzRpC8HgrTSu5PFDlWwIqqj5il9qOQqOAFmnzdxSN6vLk4w0PDfohdK0CsqxCWHvQCaKYZ++Nh7OXJ8cZnkU4qeUV1iHsQqtAWoj0SM0Y///9XBdClNviIAXgxhn/B18n+TY3MBqSUAAA="
+  },
+  "card-pompe-chaleur-facade.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-facade-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-facade-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-pompe-chaleur-facade-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-facade-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-facade-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-pompe-chaleur-facade-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBACdASoYAA8APxFysFAsJqSisAgBgCIJQACiA94BpifUni9Q8PifAQAA/mZWjitenO0VOQ1BaqIEazvvjtej9DkuduC2SlwIAf5ib2ctRnyfEK5QsG00WVDs0NcF4313f9ij6byTNvnPH2Zb0g9xeCCJEqXs2c/MSCcUx4+8kefejHPxGwys6kI4ENQZuqwH1tkIiSf5n1mOrSjt4Ouzbu0ZAAAA"
+  },
+  "card-pompe-chaleur-install.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-install-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-install-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-pompe-chaleur-install-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pompe-chaleur-install-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBACdASoYABIAPxF6tFOsJ6SiqAqpgCIJYgCdAAyGsUvwSZw9EJmORV/IDLAAzi5B03qtksctATQ5a2YEdU06krKm5TO++MBG1su/yvVJSy0KS6H9s9fowJbVb4ti9vrRiIo/LGF1jVlStYjn7UBXSJNfHbXOb422gVYjAfSwRdsFMk6NkoB1nZpKOXLtvP+pVG6PbUBtNxAX3VS/uaY0Of3S6O3B/xocMpSRkthKRJc1KWCxnFRSAKvrikCoAwuN95LKixXtYZWeAAA="
+  },
+  "card-pose-robinetterie.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-pose-robinetterie-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pose-robinetterie-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-pose-robinetterie-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-pose-robinetterie-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-pose-robinetterie-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-pose-robinetterie-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYAA8APxFysFAsJqSisAgBgCIJZACdACFK7J4PriveZfIowAD+liEeqxqKOWv7H0CcuyAIKRYhJRUgGU/6L7As423R3LkPuOUSKW3Y4L4QKQ4WQQTTYrlmErw5ZzxBqVO4TAxZNkG9wultI6Abcwtd8Y484fh0NAA="
+  },
+  "card-raccordement-cuisine.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-raccordement-cuisine-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-raccordement-cuisine-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-raccordement-cuisine-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-raccordement-cuisine-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-raccordement-cuisine-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-raccordement-cuisine-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoYAA8APxFysFAsJqSisAgBgCIJQBOgA3SkbwPAi0/9vOoAAMyI4P1Q4bEhp9aoI/A+jBe2DVzSPDRhmVNVcNLtCcaXhRidYDFUFgMQb+MRYQI796OV5MiKb4qlFDSBN6hUoQOZpOIVP8UriGlTqUM/EeX88cAA"
+  },
+  "card-radiateur-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACwBQCdASoYABIAPxF8slQsJ6QjKAqpgCIJZACdMoMqnsAwwAlhZjpBBQUB0OUVvrUZmQdgAuAAySb70abpv0FQIj8gjMrHCnras4wGDQbyMns7OjJj0BpSqGmM0oTKkasls0s4AIo/3lXjtsMlJtws+xv1dJVYqTbIFVHgsyEvfkRjG0sT9tuU/AhY3yxImvcMWynnOzw+Z5uq8V+zwcr7slaKr4JYEUAmSyU8UpXPprFAxunBeFHnmcLqz20j2ZZnSX/XoyUYaxNjQAA="
+  },
+  "card-radiateur-entretien.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-entretien-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-entretien-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBQCdASoYABIAPxF6s1IsKCSisBgIAYAiCUAXYAIsvZ4SgTmUV3ZwjPcbAvc0ezqtAAD+05X+brgUZitAIPeix8YegXwKu+kvaPma+ZZRBNpTsFnPBcSEGXKiSN6nolG1JRenn3sZR400CK26+c75R1A8klgkz/cPtSYXvxIdMLcqdbwdFJJOP4qb1bIp5gAAAA=="
+  },
+  "card-radiateur-install.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-install-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-install-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-install-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-install-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAACwBQCdASoYABIAPxGAuFWsKCUjKAgBgCIJZACdMzOLCf+AU3BFg6FayYCL7zRZ3fb5iavB/wAA/mvRZPrYRES1TSXOie73ZV0F4Y1Rh2Jvbi0BizX6q/FNF1CugyI3+8ak3UW/+N39SC9CJE2ZW31Qt3DQRRPMy32taOSPxfk5OhWu1vNit6OIJFLCiDhSEl/TglLyz1n6SrQXiW/DwYTY0vAKAjtlePamMYAA"
+  },
+  "card-radiateur-thermostat.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-thermostat-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-thermostat-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-radiateur-thermostat-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-radiateur-thermostat-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-radiateur-thermostat-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-radiateur-thermostat-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBACdASoYAA8APxF0sFCsJqSisAgBgCIJYgCdMoACs+URBc9kgdL63E5AAP3qbFTeZJ3ulslEIGeWrlHQ5h4n7HaCYYvD9VNRLaXMNCom/5e7w2w6U3Q6QbxkwayiK1gdNCLsQxNjtDAivnAjBQ25aI80AxOx5itwQvjwAAA="
+  },
+  "card-recherche-fuite-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-recherche-fuite-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-recherche-fuite-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-recherche-fuite-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-recherche-fuite-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBQCdASoYABIAPxF6s1QsJ6QjKAqpgCIJaACCL2U2mttvqykjbpJovrgb3ceq8zNZrCsAAPxkDyHKvpDBlmU1sv/azL1Fl9NfKIomTteSxDUmG3e9ic6c3ZUbM63uWKnb6I7WV+0ZL0QUnGveQ6uZbzo0wjq64OOdV0woug3nSFdGTkfA06wWGNGdeQbVhNAMdQIcV1Jl8zlL/J2U/HMSlZEstDBpzX9PDTm72rGG78ht/syBcucAAAA="
+  },
+  "card-recherche-fuite.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-recherche-fuite-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-recherche-fuite-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-recherche-fuite-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-recherche-fuite-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-recherche-fuite-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-recherche-fuite-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoYAA8APxFysFAsJqSisAgBgCIJQBadBD0nuaY0qYa9+i1nPIAAzFQkQRzyrUXLlXvP2Zefa8Thae2nzSbSAOErVok/67P5YIqp+fWOC4+FKvwUUgJ7viV5XEujIh9CFwIFUlDnaZ0/aRG3UvVeREsAAAA="
+  },
+  "card-robinetterie-entretien.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-robinetterie-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-robinetterie-entretien-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-robinetterie-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-robinetterie-entretien-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAACQBQCdASoYABIAPxFwtFKsJaUisBgIAYAiCWIAwAvAARq1ArNHK4L/S6Ukmme3leDWHPXKoAD+w/JAmVVPPM60Ds/+cYFcxEp14NTat+Fdw+Tyk6xM5aSfvlkJ/7GxMNilOVTJvNZTusgvs/lE/KdnjRN83sR1rcs5K2rAMFHx5a1bwY0yiRMTFvJxNB1vTS/Hmu9zK6p5iHjWzYNwmvZEa79Qx1bwr1PLDSY5rgI8KSI/S6ZkqMhL/LvoAA=="
+  },
+  "card-salle-bain-haussmannien.webp": {
+    "width": 1024,
+    "height": 640,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-salle-bain-haussmannien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-salle-bain-haussmannien-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-salle-bain-haussmannien-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-salle-bain-haussmannien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-salle-bain-haussmannien-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-salle-bain-haussmannien-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoYAA8APxFysFAsJqSisAgBgCIJYwCw7Bjdj73NlmIuyrLjAAD+gRI/d6pbQhg9ycgLW4500aiq1K1t2BVKCzzYnpcKCmLyFz8z0UzQyZLcpd+OpdCBocS2+OAAgoQwKa9M3oCzNv99iO3SFG357VpsQSGrZAAA"
+  },
+  "card-wc-suspendu-depannage.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-depannage-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-depannage-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBQCdASoYABIAPxF8sVQsJ6QjKAqpgCIJQBOmZDAvfbI+3cView7rCWzbszbYmFZqAADhFa+xmpSF0UmExlTCqYTIxAXJHPRn29EbEMAiHWun/NPHSurYb4PTjRMKLtAQlVq+QfmkMvDE6LLqaQ56OYjBFm1ccssP21zPRzzaJAc6mY8lb1lct3m8kST0TYY9bz5dBamsqI1NGTHu5GKb22AAAA=="
+  },
+  "card-wc-suspendu-install.webp": {
+    "width": 800,
+    "height": 600,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-install-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-install-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-install-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-install-640.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoYABIAPxFuslMsJaQisBgIAYAiCWcAwoAQ3PnXnn1NzcuVoBn8T2HlqAAA/sOCkWdlfIT7TqnRIuvg2jiBiL7ouSID/ifmGO4W1f6JqIXzLVChR+ZCN+snQNGIXoyQQIy3idM9FhuyE0VJCqYAAAAA"
+  },
+  "card-wc-suspendu.webp": {
+    "width": 1280,
+    "height": 800,
+    "aspectRatio": 1.6,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-wc-suspendu-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/card-wc-suspendu-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/card-wc-suspendu-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/card-wc-suspendu-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoYAA8APxF0sVCsJqSisAgBgCIJZQDImBrbJAWKg1fZtz3Hjo4AAP6ogW5UMzTBRp0BzCfXFjw1tDzT01HO94tpyxHKn/QAtNZ9YHkwURXRQz1JVq1Lf8XZSCeXd6DwI3X2Y2xMt4wzdAu+LFZJQQ3he8cAAA=="
+  },
+  "hero-accueil-paris.webp": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7778,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/hero-accueil-paris-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-accueil-paris-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-accueil-paris-1024.avif"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-accueil-paris-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/hero-accueil-paris-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-accueil-paris-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-accueil-paris-1024.webp"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-accueil-paris-1600.webp"
+        },
+        {
+          "w": 1920,
+          "url": "/img/hero-accueil-paris-orig.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBACdASoYAA4APxFysFAsJqSisAgBgCIJYgCdACBi7r34wSpFum1J3fbgAP6v13aGlNUrTNj0bQbO8UHh3byj2O8TvsyintVBeoqPgBYZ9yI6PDKIsUIJHiNH5wNSSYyBI6TKXJyVQkXsB9C0DP6FV5xbTvSZYlRz8GQptomeTnKd1uJ9eH7nwV7ZPyIhq/QRjuf/gcFe+ZEd4AA="
+  },
+  "hero-depannage-urgent.webp": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7778,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/hero-depannage-urgent-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-depannage-urgent-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-depannage-urgent-1024.avif"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-depannage-urgent-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/hero-depannage-urgent-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-depannage-urgent-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-depannage-urgent-1024.webp"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-depannage-urgent-1600.webp"
+        },
+        {
+          "w": 1920,
+          "url": "/img/hero-depannage-urgent-orig.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoYAA4APxFysFAsJqSisAgBgCIJbACdMoMYD8ABR4Q/lV8cu5aOGLyoAP54Yka+U2pMxCD8ctOw8t/A7p2kfMkuOjjtcfOFsuY6Do5py8QqGFMrqzXU2YTrN0wd9SYQZG/VJg5RKLgST/1yrii+mdQPm1d7pep5mrf4kKpw8h8PfxZyUKCvPlEniPbXSGAAAAA="
+  },
+  "hero-entretien-maintenance.webp": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7778,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/hero-entretien-maintenance-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-entretien-maintenance-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-entretien-maintenance-1024.avif"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-entretien-maintenance-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/hero-entretien-maintenance-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-entretien-maintenance-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-entretien-maintenance-1024.webp"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-entretien-maintenance-1600.webp"
+        },
+        {
+          "w": 1920,
+          "url": "/img/hero-entretien-maintenance-orig.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoYAA4APxFwsFAsJiSisAgBgCIJQBYdhFUw1UGS3He05bjQAP6xji3/aZXdrPwnQVl+e0RFnuEZdPn5U0Sq3O1zuacbboQPHVcbIHOZv4LL63LhTeD7AkE8nwcrNn2m3F+bTsnztUcFIoc2U0VUNrwFO8rGYzn2kVAAAA=="
+  },
+  "hero-installation-renovation.webp": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7778,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/hero-installation-renovation-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-installation-renovation-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-installation-renovation-1024.avif"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-installation-renovation-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/hero-installation-renovation-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/hero-installation-renovation-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/hero-installation-renovation-1024.webp"
+        },
+        {
+          "w": 1600,
+          "url": "/img/hero-installation-renovation-1600.webp"
+        },
+        {
+          "w": 1920,
+          "url": "/img/hero-installation-renovation-orig.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoYAA4APxFysFAsJqSisAgBgCIJYwC7AB3yCVNZnvGq+AAA/GJRJf8190l9t8FAf7aRcsAvTKrUpb6O0l8oMxgfVQ+XQOtG/SPq+Z5z6wPUxwg692GMYeDzlXrCWuwUmHBJKtykYQAAAA=="
+  },
+  "og-image.webp": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 1.7778,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/og-image-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/og-image-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/og-image-1024.avif"
+        },
+        {
+          "w": 1600,
+          "url": "/img/og-image-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/og-image-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/og-image-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/og-image-1024.webp"
+        },
+        {
+          "w": 1600,
+          "url": "/img/og-image-1600.webp"
+        },
+        {
+          "w": 1920,
+          "url": "/img/og-image-orig.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoYAA4APxFysFAsJqSisAgBgCIJQBdmUABFcetHzS6R8tEAAP5N21oO0dWQpBQ3A/rZf/P4AmxpzMJ8s5tuMAM5KNTinpsqkFZFYsPFnOibjyqHcpg6cBKOv5PTxDwG3rlxh0ph/HtJQ8zku3lkpKYDScGNkAV/WO6ItPZ5PK0XMcCAAAA="
+  }
+}

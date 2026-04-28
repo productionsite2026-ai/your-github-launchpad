@@ -9,8 +9,38 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as QaMotionRouteImport } from './routes/qa-motion'
+import { Route as InstallationRenovationRouteImport } from './routes/installation-renovation'
+import { Route as EntretienMaintenanceRouteImport } from './routes/entretien-maintenance'
+import { Route as DepannageUrgentRouteImport } from './routes/depannage-urgent'
 import { Route as IndexRouteImport } from './routes/index'
 
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QaMotionRoute = QaMotionRouteImport.update({
+  id: '/qa-motion',
+  path: '/qa-motion',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InstallationRenovationRoute = InstallationRenovationRouteImport.update({
+  id: '/installation-renovation',
+  path: '/installation-renovation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EntretienMaintenanceRoute = EntretienMaintenanceRouteImport.update({
+  id: '/entretien-maintenance',
+  path: '/entretien-maintenance',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DepannageUrgentRoute = DepannageUrgentRouteImport.update({
+  id: '/depannage-urgent',
+  path: '/depannage-urgent',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +49,102 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/depannage-urgent': typeof DepannageUrgentRoute
+  '/entretien-maintenance': typeof EntretienMaintenanceRoute
+  '/installation-renovation': typeof InstallationRenovationRoute
+  '/qa-motion': typeof QaMotionRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/depannage-urgent': typeof DepannageUrgentRoute
+  '/entretien-maintenance': typeof EntretienMaintenanceRoute
+  '/installation-renovation': typeof InstallationRenovationRoute
+  '/qa-motion': typeof QaMotionRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/depannage-urgent': typeof DepannageUrgentRoute
+  '/entretien-maintenance': typeof EntretienMaintenanceRoute
+  '/installation-renovation': typeof InstallationRenovationRoute
+  '/qa-motion': typeof QaMotionRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/depannage-urgent'
+    | '/entretien-maintenance'
+    | '/installation-renovation'
+    | '/qa-motion'
+    | '/sitemap.xml'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/depannage-urgent'
+    | '/entretien-maintenance'
+    | '/installation-renovation'
+    | '/qa-motion'
+    | '/sitemap.xml'
+  id:
+    | '__root__'
+    | '/'
+    | '/depannage-urgent'
+    | '/entretien-maintenance'
+    | '/installation-renovation'
+    | '/qa-motion'
+    | '/sitemap.xml'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DepannageUrgentRoute: typeof DepannageUrgentRoute
+  EntretienMaintenanceRoute: typeof EntretienMaintenanceRoute
+  InstallationRenovationRoute: typeof InstallationRenovationRoute
+  QaMotionRoute: typeof QaMotionRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/qa-motion': {
+      id: '/qa-motion'
+      path: '/qa-motion'
+      fullPath: '/qa-motion'
+      preLoaderRoute: typeof QaMotionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/installation-renovation': {
+      id: '/installation-renovation'
+      path: '/installation-renovation'
+      fullPath: '/installation-renovation'
+      preLoaderRoute: typeof InstallationRenovationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/entretien-maintenance': {
+      id: '/entretien-maintenance'
+      path: '/entretien-maintenance'
+      fullPath: '/entretien-maintenance'
+      preLoaderRoute: typeof EntretienMaintenanceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/depannage-urgent': {
+      id: '/depannage-urgent'
+      path: '/depannage-urgent'
+      fullPath: '/depannage-urgent'
+      preLoaderRoute: typeof DepannageUrgentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,6 +157,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DepannageUrgentRoute: DepannageUrgentRoute,
+  EntretienMaintenanceRoute: EntretienMaintenanceRoute,
+  InstallationRenovationRoute: InstallationRenovationRoute,
+  QaMotionRoute: QaMotionRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

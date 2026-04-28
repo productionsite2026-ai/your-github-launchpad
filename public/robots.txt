@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Bloque l'indexation d'éventuelles ressources internes
+Disallow: /api/
+
+Sitemap: https://artisan-saintlouis.fr/sitemap.xml

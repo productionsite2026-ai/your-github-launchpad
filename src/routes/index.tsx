@@ -7,6 +7,7 @@ import HeroWithForm from "@/components/HeroWithForm";
 import QuickAnswer from "@/components/QuickAnswer";
 import ServicesGrid, { type ServiceCard } from "@/components/ServicesGrid";
 import UseCasesSection from "@/components/UseCasesSection";
+import SectionErrorBoundary from "@/components/SectionErrorBoundary";
 import {
   LazyExpertiseSection,
   LazyProcessSection,
@@ -15,6 +16,10 @@ import {
   LazyFAQSection,
   LazyFinalCTA,
 } from "@/components/LazySections";
+
+const SectionFallback = ({ minHeight = 320 }: { minHeight?: number }) => (
+  <div aria-hidden="true" style={{ minHeight }} />
+);
 
 import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";

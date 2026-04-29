@@ -227,7 +227,7 @@ function HomePage() {
 
       <QuickAnswer
         question="Comment obtenir un plombier chauffagiste rapidement à Paris ?"
-        answer={`Appelez le ${content.company.contact.phone} ou remplissez notre formulaire en 60 secondes. Nous vous rappelons sous 15 minutes avec un créneau ferme et un devis personnalisé. Intervention en moins d\'une heure dans Paris intra-muros pour les urgences.`}
+        answer={`Appelez le ${content.company.contact.phone} ou remplissez notre formulaire. Nous vous rappelons sous 15 minutes avec un créneau ferme et un devis personnalisé. Intervention en moins d'une heure à Paris & Île-de-France pour les urgences.`}
       />
 
       <ServicesGrid

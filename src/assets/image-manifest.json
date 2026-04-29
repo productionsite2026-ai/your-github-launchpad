@@ -1359,6 +1359,42 @@
     },
     "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoYAA4APxFysFAsJqSisAgBgCIJYwC7AB3yCVNZnvGq+AAA/GJRJf8190l9t8FAf7aRcsAvTKrUpb6O0l8oMxgfVQ+XQOtG/SPq+Z5z6wPUxwg692GMYeDzlXrCWuwUmHBJKtykYQAAAA=="
   },
+  "home-card-depannage.webp": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/home-card-depannage-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-depannage-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-depannage-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/home-card-depannage-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-depannage-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-depannage-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASoYABgAPxGAt1WsKCUjKAgBgCIJQBbCgka1vamCbdIibCjw8MYKjRFelHrx+peAAP7e8zWM0Py+nwCo1bt4YloGHVvW6Ey4e/LMkYJT9b3psfalLhPBAkQpr/EdlLkUhqMOneYEggp1NbwrEgSxMGSVozn651jTWIfeXAkummeMICa8NblRH23HNDMCMcmyx+VUM8zszKp5k9cAIpaFeleSnyp0cestlVKQORGIvN1LKiuvJsLAAA=="
+  },
   "home-card-entretien.webp": {
     "width": 1024,
     "height": 768,

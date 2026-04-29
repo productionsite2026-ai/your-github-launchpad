@@ -25,7 +25,7 @@ import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";
 import recommendAccueil from "@/assets/recommend-accueil.jpg";
 import imgInstall from "@/assets/home-card-installation.webp";
-import imgDepannage from "@/assets/card-fuite-evier.webp";
+import imgDepannage from "@/assets/home-card-depannage.webp";
 import imgEntretien from "@/assets/home-card-entretien.webp";
 import imgChaudierePanne from "@/assets/home-urgent-chaudiere.webp";
 import imgFuite from "@/assets/home-urgent-fuite.webp";
@@ -169,7 +169,7 @@ const homeServices: ServiceCard[] = [
     description: "Fuite, débouchage, panne chaudière, plus d'eau chaude. Intervention rapide à Paris et IDF.",
     features: ["Intervention sous 1h", "7j/7 — 24h/24", "Diagnostic transparent"],
     image: imgDepannage,
-    imageAlt: "Intervention de dépannage plomberie sur une fuite sous évier de cuisine à Paris, remplacement du flexible et du siphon",
+    imageAlt: "Plombier d'Artisan Saint Louis en intervention de dépannage urgent sur une fuite sous évier dans une cuisine parisienne lumineuse, resserrage d'un raccord cuivre à la clé à molette",
     stat: { value: "<60min", label: "Paris intra-muros" },
   },
   {

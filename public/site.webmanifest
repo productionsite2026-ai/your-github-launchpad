@@ -1,19 +1,27 @@
 {
-  "name": "Artisan Saint Louis",
-  "short_name": "St Louis",
+  "name": "Artisan Saint Louis — Plombier Chauffagiste Paris IDF",
+  "short_name": "Artisan St Louis",
+  "description": "Plombier chauffagiste à Paris et Île-de-France. Installation, dépannage urgent 7j/7 et entretien chaudière.",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#06b6d4",
+  "background_color": "#ffffff",
+  "categories": ["business", "utilities"],
   "icons": [
     {
       "src": "/img/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/img/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }

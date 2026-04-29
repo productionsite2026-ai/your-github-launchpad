@@ -19,11 +19,11 @@ import {
 import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";
 import recommendAccueil from "@/assets/recommend-accueil.jpg";
-import imgInstall from "@/assets/card-chaudiere-condensation.webp";
+import imgInstall from "@/assets/home-card-installation.jpg";
 import imgDepannage from "@/assets/card-fuite-evier.webp";
-import imgEntretien from "@/assets/card-entretien-bruleur.webp";
-import imgChaudierePanne from "@/assets/card-entretien-bruleur-depannage.webp";
-import imgFuite from "@/assets/card-recherche-fuite.webp";
+import imgEntretien from "@/assets/home-card-entretien.jpg";
+import imgChaudierePanne from "@/assets/home-urgent-chaudiere.jpg";
+import imgFuite from "@/assets/home-urgent-fuite.jpg";
 import imgDebouchage from "@/assets/card-debouchage.webp";
 import imgWc from "@/assets/card-wc-suspendu.webp";
 import imgPac from "@/assets/card-pompe-chaleur-facade.webp";

@@ -80,10 +80,11 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-3">
           <Button size="sm" variant="accent-outline" asChild className="gap-2">
             <a
-              href={`tel:${content.company.contact.mobileRaw}`}
-              aria-label={`Appeler Artisan Saint Louis au ${content.company.contact.phoneMobile}`}
+              href={callHref}
+              {...(callExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              aria-label={callAriaLabel}
             >
-              <Phone className="h-4 w-4" aria-hidden="true" /> {content.company.contact.phoneMobile}
+              <Phone className="h-4 w-4" aria-hidden="true" /> Appeler
             </a>
           </Button>
           <Button size="sm" variant="accent" asChild>

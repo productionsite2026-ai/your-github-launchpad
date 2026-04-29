@@ -2,6 +2,8 @@ import { ReactNode, lazy, Suspense } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { useLocation } from "@tanstack/react-router";
 import Navbar from "@/components/Navbar";
+import SectionErrorBoundary from "@/components/SectionErrorBoundary";
+import { useHashScroll } from "@/hooks/use-hash-scroll";
 
 // Below-the-fold : lazy-loaded pour réduire le JS initial.
 const Footer = lazy(() => import("@/components/Footer"));
@@ -14,6 +16,7 @@ interface PageLayoutProps {
 const PageLayout = ({ children }: PageLayoutProps) => {
   const { pathname } = useLocation();
   const reduced = useReducedMotion();
+  useHashScroll();
 
   return (
     <main id="main-content" className="relative">
@@ -26,12 +29,16 @@ const PageLayout = ({ children }: PageLayoutProps) => {
       >
         {children}
       </motion.div>
-      <Suspense fallback={null}>
-        <Footer />
-      </Suspense>
-      <Suspense fallback={null}>
-        <FloatingCTA />
-      </Suspense>
+      <SectionErrorBoundary name="Footer">
+        <Suspense fallback={<div aria-hidden="true" className="min-h-[280px]" />}>
+          <Footer />
+        </Suspense>
+      </SectionErrorBoundary>
+      <SectionErrorBoundary name="FloatingCTA" fallback={null}>
+        <Suspense fallback={null}>
+          <FloatingCTA />
+        </Suspense>
+      </SectionErrorBoundary>
     </main>
   );
 };

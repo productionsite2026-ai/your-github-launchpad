@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { LucideIcon, CheckCircle2 } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
 import { fadeUp, staggerItem } from "@/lib/animations";
 import { Button } from "@/components/ui/button";
@@ -104,7 +105,7 @@ const ServicesGrid = ({ eyebrow, title, subtitle, services, ctaLabel = "Demander
                     ))}
                   </ul>
                   <Button variant="accent-outline" size="sm" asChild className="w-full mt-auto">
-                    <a href="#devis">{ctaLabel}</a>
+                    <Link to="/" hash="devis">{ctaLabel}</Link>
                   </Button>
                 </div>
               </motion.article>

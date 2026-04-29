@@ -7,6 +7,7 @@ import HeroWithForm from "@/components/HeroWithForm";
 import QuickAnswer from "@/components/QuickAnswer";
 import ServicesGrid, { type ServiceCard } from "@/components/ServicesGrid";
 import UseCasesSection from "@/components/UseCasesSection";
+import SectionErrorBoundary from "@/components/SectionErrorBoundary";
 import {
   LazyExpertiseSection,
   LazyProcessSection,
@@ -15,6 +16,10 @@ import {
   LazyFAQSection,
   LazyFinalCTA,
 } from "@/components/LazySections";
+
+const SectionFallback = ({ minHeight = 320 }: { minHeight?: number }) => (
+  <div aria-hidden="true" style={{ minHeight }} />
+);
 
 import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";
@@ -232,9 +237,11 @@ function HomePage() {
         services={homeServices}
       />
 
-      <Suspense fallback={null}>
-        <LazyExpertiseSection />
-      </Suspense>
+      <SectionErrorBoundary name="Expertise">
+        <Suspense fallback={<SectionFallback />}>
+          <LazyExpertiseSection />
+        </Suspense>
+      </SectionErrorBoundary>
 
       <UseCasesSection
         title="Dans quels cas nous appeler ?"
@@ -242,35 +249,57 @@ function HomePage() {
         cases={useCases}
       />
 
-      <Suspense fallback={null}>
-        <LazyProcessSection />
-        <LazyRecommendationsSection
-          eyebrow="Pourquoi nous choisir"
-          title="4 bonnes raisons de confier votre projet à Artisan Saint Louis"
-          subtitle="Un artisan local de proximité, transparent sur ses prix et reconnu par ses clients parisiens."
-          image={recommendAccueil}
-          imageAlt="Artisan plombier chauffagiste Saint Louis devant un immeuble haussmannien parisien"
-          recommendations={[
-            { icon: Phone, title: "Réponse en moins de 15 minutes", description: "Standard joignable 7j/7. Un artisan qualifié vous rappelle, qualifie le besoin et propose un créneau ferme." },
-            { icon: Euro, title: "Devis gratuit & sans engagement", description: "Conditions d'intervention annoncées avant tout déplacement. Aucune surprise sur la facture finale." },
-            { icon: BadgeCheck, title: "Artisan local & qualifié", description: "Garantie décennale, qualification RGE, assurance professionnelle. Un référent unique de l'appel à la garantie." },
-            { icon: Users, title: "+1200 clients satisfaits / an", description: "Particuliers, copropriétés, syndics : note moyenne 4,9/5 sur Google. Avis vérifiés à Paris et IDF." },
-          ]}
-        />
-        <LazyTestimonialsSection />
-        <LazyFAQSection
-          title="Vos questions, nos réponses"
-          subtitle="Tout ce qu'il faut savoir avant de nous confier votre intervention."
-          faqs={faqs}
-          meshLinks={[
-            { question: "Quel est le délai d'intervention en urgence à Paris ?", href: "/depannage-urgent", pageLabel: "Dépannage urgent" },
-            { question: "Quelles aides financières pour remplacer ma chaudière en 2025 ?", href: "/installation-renovation", pageLabel: "Installation & rénovation" },
-            { question: "L'entretien annuel d'une chaudière est-il vraiment obligatoire ?", href: "/entretien-maintenance", pageLabel: "Entretien & maintenance" },
-            { question: "Combien coûte un entretien chaudière gaz à Paris ?", href: "/entretien-maintenance", pageLabel: "Entretien & maintenance" },
-          ]}
-        />
-        <LazyFinalCTA />
-      </Suspense>
+      <SectionErrorBoundary name="Process">
+        <Suspense fallback={<SectionFallback />}>
+          <LazyProcessSection />
+        </Suspense>
+      </SectionErrorBoundary>
+
+      <SectionErrorBoundary name="Recommendations">
+        <Suspense fallback={<SectionFallback />}>
+          <LazyRecommendationsSection
+            eyebrow="Pourquoi nous choisir"
+            title="4 bonnes raisons de confier votre projet à Artisan Saint Louis"
+            subtitle="Un artisan local de proximité, transparent sur ses prix et reconnu par ses clients parisiens."
+            image={recommendAccueil}
+            imageAlt="Artisan plombier chauffagiste Saint Louis devant un immeuble haussmannien parisien"
+            recommendations={[
+              { icon: Phone, title: "Réponse en moins de 15 minutes", description: "Standard joignable 7j/7. Un artisan qualifié vous rappelle, qualifie le besoin et propose un créneau ferme." },
+              { icon: Euro, title: "Devis gratuit & sans engagement", description: "Conditions d'intervention annoncées avant tout déplacement. Aucune surprise sur la facture finale." },
+              { icon: BadgeCheck, title: "Artisan local & qualifié", description: "Garantie décennale, qualification RGE, assurance professionnelle. Un référent unique de l'appel à la garantie." },
+              { icon: Users, title: "+1200 clients satisfaits / an", description: "Particuliers, copropriétés, syndics : note moyenne 4,9/5 sur Google. Avis vérifiés à Paris et IDF." },
+            ]}
+          />
+        </Suspense>
+      </SectionErrorBoundary>
+
+      <SectionErrorBoundary name="Testimonials">
+        <Suspense fallback={<SectionFallback />}>
+          <LazyTestimonialsSection />
+        </Suspense>
+      </SectionErrorBoundary>
+
+      <SectionErrorBoundary name="FAQ">
+        <Suspense fallback={<SectionFallback />}>
+          <LazyFAQSection
+            title="Vos questions, nos réponses"
+            subtitle="Tout ce qu'il faut savoir avant de nous confier votre intervention."
+            faqs={faqs}
+            meshLinks={[
+              { question: "Quel est le délai d'intervention en urgence à Paris ?", href: "/depannage-urgent", pageLabel: "Dépannage urgent" },
+              { question: "Quelles aides financières pour remplacer ma chaudière en 2025 ?", href: "/installation-renovation", pageLabel: "Installation & rénovation" },
+              { question: "L'entretien annuel d'une chaudière est-il vraiment obligatoire ?", href: "/entretien-maintenance", pageLabel: "Entretien & maintenance" },
+              { question: "Combien coûte un entretien chaudière gaz à Paris ?", href: "/entretien-maintenance", pageLabel: "Entretien & maintenance" },
+            ]}
+          />
+        </Suspense>
+      </SectionErrorBoundary>
+
+      <SectionErrorBoundary name="FinalCTA">
+        <Suspense fallback={<SectionFallback minHeight={200} />}>
+          <LazyFinalCTA />
+        </Suspense>
+      </SectionErrorBoundary>
     </PageLayout>
   );
 }

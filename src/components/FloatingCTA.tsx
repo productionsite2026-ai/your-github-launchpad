@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Phone, FileText, MessageCircle, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 import { content } from "@/data/content";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -18,6 +19,8 @@ import { useIsMobile } from "@/hooks/use-mobile";
  */
 const FloatingCTA = () => {
   const isMobile = useIsMobile();
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
   const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
   const [bottomOffset, setBottomOffset] = useState(16);
@@ -78,6 +81,12 @@ const FloatingCTA = () => {
   const scrollToDevis = (e: React.MouseEvent) => {
     e.preventDefault();
     setOpen(false);
+    if (pathname !== "/") {
+      // Cible absente sur cette page : on ramène l'utilisateur au formulaire
+      // de la home, useHashScroll fera défiler une fois la page rendue.
+      navigate({ to: "/", hash: "devis" });
+      return;
+    }
     const el = document.getElementById("devis");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   };

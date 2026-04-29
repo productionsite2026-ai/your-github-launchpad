@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, FileText, AlertTriangle, MessageCircle } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { content } from "@/data/content";
 import { fadeUp } from "@/lib/animations";
@@ -45,9 +46,9 @@ const FinalCTA = ({
             </a>
           </Button>
           <Button size="xl" variant="accent-outline" asChild className="gap-2 bg-card/10 backdrop-blur-sm text-primary-foreground border-primary-foreground/40 hover:bg-card hover:text-foreground">
-            <a href="#devis">
+            <Link to="/" hash="devis">
               <FileText className="h-5 w-5" aria-hidden="true" /> Devis en 60 secondes
-            </a>
+            </Link>
           </Button>
         </div>
 

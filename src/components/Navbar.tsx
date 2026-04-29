@@ -78,7 +78,7 @@ const Navbar = () => {
             </a>
           </Button>
           <Button size="sm" variant="accent" asChild>
-            <a href="#devis">Devis gratuit</a>
+            <Link to="/" hash="devis">Devis gratuit</Link>
           </Button>
         </div>
 
@@ -142,7 +142,7 @@ const Navbar = () => {
                   </a>
                 </Button>
                 <Button size="sm" variant="accent" asChild className="w-full">
-                  <a href="#devis">Devis gratuit</a>
+                  <Link to="/" hash="devis">Devis gratuit</Link>
                 </Button>
               </div>
             </div>

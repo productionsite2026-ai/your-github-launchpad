@@ -1505,8 +1505,8 @@
   },
   "home-urgent-fuite.webp": {
     "width": 1024,
-    "height": 768,
-    "aspectRatio": 1.3333,
+    "height": 1024,
+    "aspectRatio": 1,
     "sources": {
       "avif": [
         {
@@ -1537,7 +1537,7 @@
         }
       ]
     },
-    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBQCdASoYABIAPxF8sVSsJ6QjKAqpgCIJZQDGQA8ugXz1mZ4XLDzWPALBTTZ4CC7gAP7lmU3BbLYeKEwnxYjxfr45qY7l5dXS6ZRj0Uld1k6M1nWFoQgqB9GoI+z5vwZMxkZmTA0quqvgfu07zd0iAbxYvEL3tocgAgAA"
+    "placeholder": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAADQBQCdASoYABgAPxFysFAsJqSisAgBgCIJbACdMzLr7Ei19bWta3MfhL2qd/ldEpX8uFGkQ4bwAP7qjiWX6oNpNpCIpA/DT9uKIxyjqOMcFfikKZaWzQiAdJGgPYKe+Zjqkfi03H7DBLPUf7KcYAcggcazkTQhpzI8GvGLittloKfc05CnrjO24xR1KCnBqS0SCPejeLdkEprH+NKo1DoTpsZrZenk55JcEV9l0OozTiQsCf6dQ1MGY2ptTsA16QPcfmF5Jv6QMOR8Y1GRH3wyvcrfR+gA"
   },
   "og-image.webp": {
     "width": 1920,

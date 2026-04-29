@@ -186,12 +186,12 @@ const homeServices: ServiceCard[] = [
 ];
 
 const useCases = [
-  { title: "Fuite d'eau visible", description: "Sous évier, WC, ballon ou chauffe-eau : nous coupons et réparons.", urgent: true, image: imgFuite, imageAlt: "Fuite d'eau urgente sous un évier la nuit, plombier inspectant le siphon et le flexible mouillé à la lampe torche", badge: "Urgence" },
-  { title: "Canalisation bouchée", description: "Évier, douche, WC : débouchage mécanique ou hydrocurage.", urgent: true, image: imgDebouchage, imageAlt: "Débouchage de canalisation extérieure à Paris par camion hydrocureur haute pression" },
-  { title: "WC bouché ou cassé", description: "Remplacement WC suspendu, broyeur, chasse d'eau défectueuse.", image: imgWc, imageAlt: "Pose d'un WC suspendu sur bâti-support dans une salle de bain rénovée à Paris" },
-  { title: "Chaudière en panne", description: "Mise en sécurité, code erreur, plus d'eau chaude : diagnostic immédiat.", urgent: true, image: imgChaudierePanne, imageAlt: "Chaudière gaz murale affichant un code erreur rouge, dépanneur testant la carte électronique au multimètre", badge: "Urgence" },
-  { title: "Pose pompe à chaleur", description: "Étude thermique, dimensionnement et installation PAC air/eau.", image: imgPac, imageAlt: "Unité extérieure de pompe à chaleur air/eau installée en façade d'un pavillon en Île-de-France" },
-  { title: "Radiateurs froids", description: "Purge, équilibrage hydraulique, remplacement de robinets thermostatiques.", image: imgRadiateur, imageAlt: "Radiateur en fonte avec robinet thermostatique neuf en cours de réglage par un chauffagiste" },
+  { title: "Fuite d'eau visible", description: "Sous évier, WC, ballon ou chauffe-eau : nous coupons et réparons.", urgent: true, image: imgFuite, imageAlt: "Fuite d'eau urgente sous un évier la nuit, plombier inspectant le siphon et le flexible mouillé à la lampe torche", badge: "Urgent" },
+  { title: "Canalisation bouchée", description: "Évier, douche, WC : débouchage mécanique ou hydrocurage.", image: imgDebouchage, imageAlt: "Débouchage de canalisation extérieure à Paris par camion hydrocureur haute pression", badge: "Débouchage", badgeVariant: "serviceCyan" as const },
+  { title: "WC bouché ou cassé", description: "Remplacement WC suspendu, broyeur, chasse d'eau défectueuse.", image: imgWc, imageAlt: "Pose d'un WC suspendu sur bâti-support dans une salle de bain rénovée à Paris", badge: "Réparation", badgeVariant: "serviceBlue" as const },
+  { title: "Chaudière en panne", description: "Mise en sécurité, code erreur, plus d'eau chaude : diagnostic immédiat.", urgent: true, image: imgChaudierePanne, imageAlt: "Chaudière gaz murale affichant un code erreur rouge, dépanneur testant la carte électronique au multimètre", badge: "Urgent" },
+  { title: "Pose pompe à chaleur", description: "Étude thermique, dimensionnement et installation PAC air/eau.", image: imgPac, imageAlt: "Unité extérieure de pompe à chaleur air/eau installée en façade d'un pavillon en Île-de-France", badge: "Installation", badgeVariant: "serviceEmerald" as const },
+  { title: "Radiateurs froids", description: "Purge, équilibrage hydraulique, remplacement de robinets thermostatiques.", image: imgRadiateur, imageAlt: "Radiateur en fonte avec robinet thermostatique neuf en cours de réglage par un chauffagiste", badge: "Entretien", badgeVariant: "serviceAmber" as const },
 ];
 
 const faqs = [

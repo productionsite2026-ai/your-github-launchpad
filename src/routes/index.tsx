@@ -232,8 +232,8 @@ function HomePage() {
 
       <ServicesGrid
         eyebrow="Nos prestations"
-        title="3 métiers, une exigence : du travail bien fait"
-        subtitle="Plomberie et chauffage, du dépannage minute à la rénovation complète, pour particuliers et copropriétés."
+        title="3 métiers, une exigence : Du travail bien fait"
+        subtitle="Plomberie et Chauffage, du Dépannage minute à la rénovation complète, pour Particuliers et Copropriétés."
         services={homeServices}
       />
 

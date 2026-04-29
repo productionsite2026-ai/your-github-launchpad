@@ -132,7 +132,7 @@ export const Route = createRootRoute({
       { name: "author", content: "Artisan Saint Louis" },
       { name: "robots", content: "index,follow,max-image-preview:large,max-snippet:-1" },
       { name: "format-detection", content: "telephone=no" },
-      { name: "theme-color", content: "#0c4a6e" },
+      { name: "theme-color", content: "#06b6d4" },
       { name: "color-scheme", content: "light" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "fr_FR" },

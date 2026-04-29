@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { content } from "@/data/content";
 import { Suspense } from "react";
 import { AlertTriangle, Phone, Clock, Droplets, Flame, Wrench, Zap, Euro, ShieldCheck, MapPin } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
@@ -124,6 +125,32 @@ export const Route = createFileRoute("/depannage-urgent")({
           },
         }),
       },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "Que faire en cas de fuite d'eau avant l'arrivée du plombier ?",
+          description: "Étapes à suivre en cas de fuite d'eau pour minimiser les dégâts en attendant l'intervention d'un plombier.",
+          step: [
+            {
+              "@type": "HowToStep",
+              name: "Couper l'arrivée d'eau générale",
+              text: "Localisez la vanne d'arrêt principale (souvent près du compteur d'eau ou sous l'évier le plus proche de la fuite) et fermez-la pour stopper l'arrivée d'eau."
+            },
+            {
+              "@type": "HowToStep",
+              name: "Couper l'électricité si nécessaire",
+              text: "Si la fuite d'eau est proche d'installations électriques (prises, appareils), coupez l'alimentation électrique de la zone concernée au tableau électrique pour éviter tout risque de court-circuit ou d'électrocution."
+            },
+            {
+              "@type": "HowToStep",
+              name: "Contacter un plombier d'urgence",
+              text: `Appelez un professionnel comme Artisan Saint Louis au ${content.company.contact.phone} pour une intervention rapide. Préparez-vous à décrire la situation et les actions déjà entreprises.`
+            }
+          ]
+        }),
+      },
     ],
   }),
   component: DepannagePage,
@@ -194,6 +221,7 @@ function DepannagePage() {
           { label: "Sous 60 min", variant: "serviceOrange", icon: <Clock className="h-3 w-3" /> },
           { label: "Devis gratuit & sans engagement", variant: "serviceEmerald", icon: <Phone className="h-3 w-3" /> },
         ]}
+        breadcrumb={[{ label: "Dépannage urgent" }]}
         defaultService="depannage"
         backgroundImage={heroDepannage}
         backgroundImageAlt="Plombier en intervention urgence à Paris"
@@ -201,8 +229,7 @@ function DepannagePage() {
 
       <QuickAnswer
         question="Comment obtenir un dépannage plombier en urgence à Paris ?"
-        answer="Appelez le 06 12 34 56 78 — nous décrochons 7j/7 24h/24. Diagnostic au téléphone, créneau ferme dans l'heure et devis annoncé avant intervention. En attendant, coupez l'eau au compteur et l'électricité si l'eau menace une prise."
-      />
+      answer={`Appelez le ${content.company.contact.phone} — nous décrochons 7j/7 24h/24. Diagnostic au téléphone, créneau ferme dans l\'heure et devis annoncé avant intervention. En attendant, coupez l\'eau au compteur et l\'électricité si l\'eau menace une prise.`}     />
 
       <ServicesGrid
         eyebrow="Urgences traitées"

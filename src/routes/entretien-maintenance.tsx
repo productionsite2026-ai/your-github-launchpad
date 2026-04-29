@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { content } from "@/data/content";
 import { Suspense } from "react";
 import { ShieldCheck, FileCheck, Gauge, Award, Flame, Droplets, CalendarCheck, TrendingDown, ClipboardList, Wrench } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
@@ -207,6 +208,7 @@ function EntretienPage() {
           { label: "Attestation immédiate", variant: "serviceEmerald", icon: <ShieldCheck className="h-3 w-3" /> },
           { label: "Toutes marques", variant: "serviceBlue", icon: <Award className="h-3 w-3" /> },
         ]}
+        breadcrumb={[{ label: "Entretien & maintenance" }]}
         defaultService="entretien"
         backgroundImage={heroEntretien}
         backgroundImageAlt="Entretien annuel d'une chaudière par Artisan Saint Louis"

@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { content } from "@/data/content";
 import { Suspense } from "react";
 import { Wrench, Flame, ShieldCheck, Clock, Award, Sparkles, Droplets, AlertTriangle, ThermometerSun, Hammer, Phone, Euro, Users, BadgeCheck } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
@@ -221,7 +222,7 @@ function HomePage() {
 
       <QuickAnswer
         question="Comment obtenir un plombier chauffagiste rapidement à Paris ?"
-        answer="Appelez le 06 12 34 56 78 ou remplissez notre formulaire en 60 secondes. Nous vous rappelons sous 15 minutes avec un créneau ferme et un devis personnalisé. Intervention en moins d'une heure dans Paris intra-muros pour les urgences."
+        answer={`Appelez le ${content.company.contact.phone} ou remplissez notre formulaire en 60 secondes. Nous vous rappelons sous 15 minutes avec un créneau ferme et un devis personnalisé. Intervention en moins d\'une heure dans Paris intra-muros pour les urgences.`}
       />
 
       <ServicesGrid

@@ -270,6 +270,7 @@ function InstallationPage() {
           { label: "Devis gratuit & sans engagement", variant: "serviceEmerald", icon: <Award className="h-3 w-3" /> },
           { label: "Aides financières", variant: "serviceBlue", icon: <Leaf className="h-3 w-3" /> },
         ]}
+        breadcrumb={[{ label: "Installation & rénovation" }]}
         defaultService="installation"
         backgroundImage={heroInstall}
         backgroundImageAlt="Chantier d'installation chauffage par Artisan Saint Louis à Paris"

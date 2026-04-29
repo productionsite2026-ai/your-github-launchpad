@@ -266,7 +266,7 @@ function HomePage() {
             recommendations={[
               { icon: Phone, title: "Réponse en moins de 15 minutes", description: "Standard joignable 7j/7. Un artisan qualifié vous rappelle, qualifie le besoin et propose un créneau ferme." },
               { icon: Euro, title: "Devis gratuit & sans engagement", description: "Conditions d'intervention annoncées avant tout déplacement. Aucune surprise sur la facture finale." },
-              { icon: BadgeCheck, title: "Artisan local & qualifié", description: "Garantie décennale, qualification RGE, assurance professionnelle. Un référent unique de l'appel à la garantie." },
+              { icon: BadgeCheck, title: "Artisan local & qualifié", description: "Garantie, qualification RGE, assurance professionnelle. Un référent unique de l'appel à la garantie." },
               { icon: Users, title: "+1200 clients satisfaits / an", description: "Particuliers, copropriétés, syndics : note moyenne 4,9/5 sur Google. Avis vérifiés à Paris et IDF." },
             ]}
           />

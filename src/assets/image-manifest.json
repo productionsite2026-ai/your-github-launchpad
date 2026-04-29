@@ -1359,6 +1359,150 @@
     },
     "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoYAA4APxFysFAsJqSisAgBgCIJYwC7AB3yCVNZnvGq+AAA/GJRJf8190l9t8FAf7aRcsAvTKrUpb6O0l8oMxgfVQ+XQOtG/SPq+Z5z6wPUxwg692GMYeDzlXrCWuwUmHBJKtykYQAAAA=="
   },
+  "home-card-entretien.webp": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/home-card-entretien-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-entretien-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-entretien-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/home-card-entretien-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-entretien-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-entretien-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAABQBQCdASoYABIAPxF8tVOsJ6SiqAqpgCIJQBbfZfy5IYywuZFjWcy7vWrsh8KAzg6JxMAA/pQlLlLZjsd689aZBS4Rjegjh7DaPMrgP6XAWSv5PXGZ55hY4Wty0LXuElQ38oUwAkiSu9NjHVWGqWKwDKbtBKlTexm25/C1nIG9QzN48K0S4MUCgYeCuZ/bYzHtJnAmoZzjHCoYUF75NqRqGHEL9Q5y68ylOnhb0wSaYNooWh7GuwJAqIa263+TMi9JOu4QAAA="
+  },
+  "home-card-installation.webp": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/home-card-installation-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-installation-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-installation-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/home-card-installation-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-card-installation-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-card-installation-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADwBACdASoYABIAPxF8tFQsJ6SjKAqpgCIJQBYj4Tgreu3IITi8abKHzm/8ej6i44AA/gro5etdxnvYOUijjSmDlQYTO29auDbXZxCQqJ1YteJVYBoLeUoGaM37V82xXuF6En0UyF6zTNN9KkhtvXajB8GWWcemdult4iE4MTakiwHDsSamYHdjrZt5yfsqhy4tDK/94aNpEwPSHW3pGTNJ80O7dqoAAAA="
+  },
+  "home-urgent-chaudiere.webp": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/home-urgent-chaudiere-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-urgent-chaudiere-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-urgent-chaudiere-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/home-urgent-chaudiere-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-urgent-chaudiere-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-urgent-chaudiere-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYABIAPxF+t1WsJ6UjKAgBgCIJYwDA3Agnqf+633NQE2EXywAA/sGYO5xIJU4Ht8TIQG4exM9mwhaqzX0OgFimnfO8PK6Pz8QFMgXhR7EyJ0RQtgUrwzokzJPyP8uSIE+ssWS3vaUpy485qBap0IMGnXEEskAA"
+  },
+  "home-urgent-fuite.webp": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.3333,
+    "sources": {
+      "avif": [
+        {
+          "w": 320,
+          "url": "/img/home-urgent-fuite-320.avif"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-urgent-fuite-640.avif"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-urgent-fuite-1024.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 320,
+          "url": "/img/home-urgent-fuite-320.webp"
+        },
+        {
+          "w": 640,
+          "url": "/img/home-urgent-fuite-640.webp"
+        },
+        {
+          "w": 1024,
+          "url": "/img/home-urgent-fuite-1024.webp"
+        }
+      ]
+    },
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBQCdASoYABIAPxF8sVSsJ6QjKAqpgCIJZQDGQA8ugXz1mZ4XLDzWPALBTTZ4CC7gAP7lmU3BbLYeKEwnxYjxfr45qY7l5dXS6ZRj0Uld1k6M1nWFoQgqB9GoI+z5vwZMxkZmTA0quqvgfu07zd0iAbxYvEL3tocgAgAA"
+  },
   "og-image.webp": {
     "width": 1920,
     "height": 1080,

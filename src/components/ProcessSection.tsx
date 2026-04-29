@@ -43,8 +43,8 @@ const defaultSteps: ProcessStep[] = [
     icon: ShieldCheck,
     title: "Garantie & suivi",
     description:
-      "Attestation, facture détaillée, garantie décennale et SAV réactif. Un référent unique reste joignable après chantier.",
-    duration: "Décennale",
+      "Attestation, facture détaillée, garantie et SAV réactif. Un référent unique reste joignable après chantier.",
+    duration: "Garantie",
   },
 ];
 

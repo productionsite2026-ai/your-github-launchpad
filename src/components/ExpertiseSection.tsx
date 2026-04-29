@@ -61,7 +61,7 @@ const ExpertiseSection = ({
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-5" data-speakable>
               De la fuite invisible à la rénovation complète d'une salle de bain haussmannienne, nous
               traitons toute la chaîne : arrivée, distribution, évacuation. Diagnostic clair, pose
-              soignée, garantie décennale.
+              soignée.
             </p>
             <ul className="space-y-2.5 mt-auto">
               {plomberiePoints.map((p) => (

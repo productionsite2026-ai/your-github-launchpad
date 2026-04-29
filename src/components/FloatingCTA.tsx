@@ -1,22 +1,25 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, MessageCircle } from "lucide-react";
-import { useEffect, useState } from "react";
+import { Phone, FileText, MessageCircle, X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 import { content } from "@/data/content";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 /**
- * FloatingCTA — Bulle d'appel flottante (bottom-right)
+ * FloatingCTA — Bulle téléphone flottante (bottom-right)
  *
- * Un seul bouton :
- *  - Mobile : ouvre tel: (appel direct)
- *  - Desktop : ouvre WhatsApp (chat)
- *
- * Se masque quand le footer entre dans le viewport.
+ * Pastille ronde qui s'ouvre au clic et révèle 2 actions :
+ *  1. "Appeler" : tel: sur mobile, WhatsApp sur desktop.
+ *  2. "Devis gratuit" : scroll vers #devis.
  */
 const FloatingCTA = () => {
   const isMobile = useIsMobile();
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
   const [hidden, setHidden] = useState(false);
+  const [open, setOpen] = useState(false);
   const [bottomOffset, setBottomOffset] = useState(16);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -50,30 +53,129 @@ const FloatingCTA = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (!open) return;
+    const handleClick = (e: MouseEvent) => {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", handleClick);
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("keydown", handleKey);
+    };
+  }, [open]);
+
+  const scrollToDevis = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setOpen(false);
+    if (pathname !== "/") {
+      navigate({ to: "/", hash: "devis" });
+      return;
+    }
+    const el = document.getElementById("devis");
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   const callHref = isMobile
     ? `tel:${content.company.contact.mobileRaw}`
     : content.company.contact.whatsappUrl;
   const callAriaLabel = isMobile
     ? `Appeler ${content.company.name} au ${content.company.contact.phoneMobile}`
     : `Écrire sur WhatsApp à ${content.company.name}`;
-  const Icon = isMobile ? Phone : MessageCircle;
+  const CallIcon = isMobile ? Phone : MessageCircle;
 
   return (
     <AnimatePresence>
       {!hidden && (
-        <motion.a
-          href={callHref}
-          {...(!isMobile && { target: "_blank", rel: "noopener noreferrer" })}
-          aria-label={callAriaLabel}
+        <motion.div
+          ref={containerRef}
           initial={{ opacity: 0, y: 60, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 40, scale: 0.9 }}
           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
           style={{ bottom: `${bottomOffset}px` }}
-          className="fixed right-4 z-40 md:right-6 print:hidden flex h-14 w-14 items-center justify-center rounded-full bg-flame-gradient text-secondary-foreground shadow-floating ring-1 ring-primary/10 transition-spring hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-background animate-pulse-ring"
+          className="fixed right-4 z-40 md:right-6 print:hidden"
+          role="region"
+          aria-label="Actions rapides de contact"
         >
-          <Icon className="h-6 w-6" aria-hidden="true" />
-        </motion.a>
+          <div className="flex flex-col items-end gap-2">
+            <AnimatePresence>
+              {open && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10, scale: 0.9 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: 10, scale: 0.9 }}
+                  transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                  className="flex flex-col items-end gap-2"
+                >
+                  <a
+                    href={callHref}
+                    {...(!isMobile && { target: "_blank", rel: "noopener noreferrer" })}
+                    aria-label={callAriaLabel}
+                    onClick={() => setOpen(false)}
+                    className="flex items-center gap-2 rounded-full bg-flame-gradient text-secondary-foreground px-4 py-2.5 font-bold text-sm shadow-floating transition-spring hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-1 focus-visible:ring-offset-background"
+                  >
+                    <CallIcon className="h-4 w-4" aria-hidden="true" />
+                    <span>Appeler</span>
+                  </a>
+
+                  <a
+                    href="#devis"
+                    onClick={scrollToDevis}
+                    aria-label="Demander un devis gratuit"
+                    className="flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-4 py-2.5 font-bold text-sm shadow-floating transition-spring hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1 focus-visible:ring-offset-background"
+                  >
+                    <FileText className="h-4 w-4" aria-hidden="true" />
+                    <span>Devis gratuit</span>
+                  </a>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              aria-expanded={open}
+              aria-haspopup="menu"
+              aria-label={open ? "Fermer les actions de contact" : "Ouvrir les actions de contact"}
+              className={`relative flex h-14 w-14 items-center justify-center rounded-full bg-flame-gradient text-secondary-foreground shadow-floating ring-1 ring-primary/10 transition-spring hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+                open ? "" : "animate-pulse-ring"
+              }`}
+            >
+              <AnimatePresence mode="wait" initial={false}>
+                {open ? (
+                  <motion.span
+                    key="close"
+                    initial={{ rotate: -90, opacity: 0 }}
+                    animate={{ rotate: 0, opacity: 1 }}
+                    exit={{ rotate: 90, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="flex"
+                  >
+                    <X className="h-6 w-6" aria-hidden="true" />
+                  </motion.span>
+                ) : (
+                  <motion.span
+                    key="phone"
+                    initial={{ rotate: -90, opacity: 0 }}
+                    animate={{ rotate: 0, opacity: 1 }}
+                    exit={{ rotate: 90, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="flex"
+                  >
+                    <Phone className="h-6 w-6" aria-hidden="true" />
+                  </motion.span>
+                )}
+              </AnimatePresence>
+            </button>
+          </div>
+        </motion.div>
       )}
     </AnimatePresence>
   );

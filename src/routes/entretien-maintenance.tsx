@@ -180,12 +180,12 @@ const services: ServiceCard[] = [
 ];
 
 const cases = [
-  { title: "Entretien annuel obligatoire", description: "Attestation légale remise immédiatement, valable pour assurance et bailleur.", image: imgAttestation, imageAlt: "Attestation d'entretien chaudière signée par le technicien", badge: "Obligation légale" },
-  { title: "Contrat maintenance annuel", description: "Visite annuelle + dépannage prioritaire + main d'œuvre incluse.", image: imgContrat, imageAlt: "Carnet de contrat de maintenance chaudière annuel" },
-  { title: "Vente / achat immobilier", description: "Diagnostic chauffage et plomberie pour acte de vente.", image: imgRobinetterie, imageAlt: "Contrôle de robinetterie et installation sanitaire avant vente" },
-  { title: "Optimisation rendement", description: "Réglage combustion, désembouage, équilibrage radiateurs.", image: imgRadiateur, imageAlt: "Réglage d'un robinet thermostatique sur radiateur" },
-  { title: "Mise aux normes gaz", description: "Vérification souplesse, ventilation, étanchéité réseau gaz.", image: imgControleGaz, imageAlt: "Contrôle d'étanchéité d'un raccordement gaz au manomètre" },
-  { title: "Désembouage circuit chauffage", description: "Élimination des boues qui réduisent le rendement de 30%.", image: imgDesembouage, imageAlt: "Pompe de désembouage connectée au circuit de chauffage" },
+  { title: "Entretien annuel obligatoire", description: "Attestation légale remise immédiatement, valable pour assurance et bailleur.", image: imgAttestation, imageAlt: "Attestation d'entretien chaudière signée par le technicien", badge: "Obligation légale", badgeVariant: "serviceEmerald" as const },
+  { title: "Contrat maintenance annuel", description: "Visite annuelle + dépannage prioritaire + main d'œuvre incluse.", image: imgContrat, imageAlt: "Carnet de contrat de maintenance chaudière annuel", badge: "Contrat", badgeVariant: "serviceBlue" as const },
+  { title: "Vente / achat immobilier", description: "Diagnostic chauffage et plomberie pour acte de vente.", image: imgRobinetterie, imageAlt: "Contrôle de robinetterie et installation sanitaire avant vente", badge: "Diagnostic", badgeVariant: "serviceViolet" as const },
+  { title: "Optimisation rendement", description: "Réglage combustion, désembouage, équilibrage radiateurs.", image: imgRadiateur, imageAlt: "Réglage d'un robinet thermostatique sur radiateur", badge: "Optimisation", badgeVariant: "serviceAmber" as const },
+  { title: "Mise aux normes gaz", description: "Vérification souplesse, ventilation, étanchéité réseau gaz.", image: imgControleGaz, imageAlt: "Contrôle d'étanchéité d'un raccordement gaz au manomètre", badge: "Sécurité gaz", badgeVariant: "serviceOrange" as const },
+  { title: "Désembouage circuit chauffage", description: "Élimination des boues qui réduisent le rendement de 30%.", image: imgDesembouage, imageAlt: "Pompe de désembouage connectée au circuit de chauffage", badge: "Désembouage", badgeVariant: "serviceCyan" as const },
 ];
 
 const faqs = [

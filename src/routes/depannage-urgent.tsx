@@ -193,12 +193,12 @@ const services: ServiceCard[] = [
 ];
 
 const cases = [
-  { title: "Fuite sous évier ou lavabo", description: "Joint usé, siphon fissuré, flexible percé : remplacement immédiat.", urgent: true, image: imgEvier, imageAlt: "Fuite d'eau sous un évier de cuisine en cours de réparation", badge: "Urgence" },
-  { title: "WC bouché ou débordant", description: "Débouchage ou remplacement complet WC suspendu / broyeur.", urgent: true, image: imgWc, imageAlt: "Plombier intervenant sur un WC en panne dans une salle de bain" },
-  { title: "Plus d'eau chaude", description: "Diagnostic ballon ou chaudière, remise en service le jour même.", urgent: true, image: imgChaudierePlusEau, imageAlt: "Chaudière gaz contrôlée pour panne d'eau chaude sanitaire", badge: "Urgence" },
-  { title: "Radiateur fuyant", description: "Robinet, purgeur, corps : isolation et remplacement.", image: imgFuiteRadiateur, imageAlt: "Plombier réparant la fuite d'un robinet de radiateur" },
-  { title: "Canalisation extérieure bouchée", description: "Hydrocurage haute pression et inspection caméra.", image: imgHydro, imageAlt: "Camion hydrocureur nettoyant une canalisation extérieure parisienne" },
-  { title: "Fuite invisible (compteur qui tourne)", description: "Recherche de fuite non destructive avec rapport assurance.", image: imgFuiteInvisible, imageAlt: "Inspection thermique d'un mur de douche pour fuite invisible" },
+  { title: "Fuite sous évier ou lavabo", description: "Joint usé, siphon fissuré, flexible percé : remplacement immédiat.", urgent: true, image: imgEvier, imageAlt: "Fuite d'eau sous un évier de cuisine en cours de réparation", badge: "Urgent" },
+  { title: "WC bouché ou débordant", description: "Débouchage ou remplacement complet WC suspendu / broyeur.", image: imgWc, imageAlt: "Plombier intervenant sur un WC en panne dans une salle de bain", badge: "Débouchage", badgeVariant: "serviceOrange" as const },
+  { title: "Plus d'eau chaude", description: "Diagnostic ballon ou chaudière, remise en service le jour même.", urgent: true, image: imgChaudierePlusEau, imageAlt: "Chaudière gaz contrôlée pour panne d'eau chaude sanitaire", badge: "Urgent" },
+  { title: "Radiateur fuyant", description: "Robinet, purgeur, corps : isolation et remplacement.", image: imgFuiteRadiateur, imageAlt: "Plombier réparant la fuite d'un robinet de radiateur", badge: "Chauffage", badgeVariant: "serviceAmber" as const },
+  { title: "Canalisation extérieure bouchée", description: "Hydrocurage haute pression et inspection caméra.", image: imgHydro, imageAlt: "Camion hydrocureur nettoyant une canalisation extérieure parisienne", badge: "Hydrocurage", badgeVariant: "serviceCyan" as const },
+  { title: "Fuite invisible (compteur qui tourne)", description: "Recherche de fuite non destructive avec rapport assurance.", image: imgFuiteInvisible, imageAlt: "Inspection thermique d'un mur de douche pour fuite invisible", badge: "Recherche fuite", badgeVariant: "serviceBlue" as const },
 ];
 
 const faqs = [

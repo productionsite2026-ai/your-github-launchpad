@@ -242,12 +242,12 @@ const services: ServiceCard[] = [
 ];
 
 const cases = [
-  { title: "Chaudière de plus de 15 ans", description: "Remplacement par condensation : amortissement en 5 à 7 ans grâce aux économies d'énergie.", image: imgChaudiereOrigine, imageAlt: "Ancienne chaudière gaz à remplacer par un modèle à condensation" },
-  { title: "Passage du fioul à la PAC", description: "Étude personnalisée, dépose cuve fioul et installation pompe à chaleur clé en main.", image: imgCuveFioul, imageAlt: "Dépose d'une ancienne cuve à fioul dans un sous-sol parisien", badge: "Aides MaPrimeRénov" },
-  { title: "Construction neuve", description: "Conception complète plomberie + chauffage selon RT2012 / RE2020.", image: imgPlancher, imageAlt: "Plancher chauffant en construction neuve" },
-  { title: "Rénovation appartement haussmannien", description: "Adaptation aux contraintes de copropriété, passage de gaines discrètes.", image: imgHaussmann, imageAlt: "Salle de bain haussmannienne rénovée avec marbre et douche italienne" },
-  { title: "Optimisation chauffage existant", description: "Robinets thermostatiques connectés, désembouage, équilibrage.", image: imgRadiateur, imageAlt: "Radiateur équipé d'un robinet thermostatique connecté" },
-  { title: "Cuisine ou buanderie", description: "Création arrivée d'eau, évacuation lave-linge / lave-vaisselle.", image: imgCuisine, imageAlt: "Raccordement plomberie d'un lave-linge sous évier de cuisine" },
+  { title: "Chaudière de plus de 15 ans", description: "Remplacement par condensation : amortissement en 5 à 7 ans grâce aux économies d'énergie.", image: imgChaudiereOrigine, imageAlt: "Ancienne chaudière gaz à remplacer par un modèle à condensation", badge: "Remplacement", badgeVariant: "serviceBlue" as const },
+  { title: "Passage du fioul à la PAC", description: "Étude personnalisée, dépose cuve fioul et installation pompe à chaleur clé en main.", image: imgCuveFioul, imageAlt: "Dépose d'une ancienne cuve à fioul dans un sous-sol parisien", badge: "MaPrimeRénov", badgeVariant: "serviceEmerald" as const },
+  { title: "Construction neuve", description: "Conception complète plomberie + chauffage selon RT2012 / RE2020.", image: imgPlancher, imageAlt: "Plancher chauffant en construction neuve", badge: "Neuf", badgeVariant: "serviceCyan" as const },
+  { title: "Rénovation appartement haussmannien", description: "Adaptation aux contraintes de copropriété, passage de gaines discrètes.", image: imgHaussmann, imageAlt: "Salle de bain haussmannienne rénovée avec marbre et douche italienne", badge: "Rénovation", badgeVariant: "serviceViolet" as const },
+  { title: "Optimisation chauffage existant", description: "Robinets thermostatiques connectés, désembouage, équilibrage.", image: imgRadiateur, imageAlt: "Radiateur équipé d'un robinet thermostatique connecté", badge: "Optimisation", badgeVariant: "serviceAmber" as const },
+  { title: "Cuisine ou buanderie", description: "Création arrivée d'eau, évacuation lave-linge / lave-vaisselle.", image: imgCuisine, imageAlt: "Raccordement plomberie d'un lave-linge sous évier de cuisine", badge: "Raccordement", badgeVariant: "serviceOrange" as const },
 ];
 
 const faqs = [

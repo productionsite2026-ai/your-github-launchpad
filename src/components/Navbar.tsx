@@ -4,12 +4,21 @@ import { Menu, X, Phone, Droplets } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "@tanstack/react-router";
 import { content, navLinks } from "@/data/content";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const reduced = useReducedMotion();
+  const isMobile = useIsMobile();
+  const callHref = isMobile
+    ? `tel:${content.company.contact.mobileRaw}`
+    : content.company.contact.whatsappUrl;
+  const callAriaLabel = isMobile
+    ? `Appeler Artisan Saint Louis au ${content.company.contact.phoneMobile}`
+    : `Écrire sur WhatsApp à Artisan Saint Louis au ${content.company.contact.phoneMobile}`;
+  const callExternal = !isMobile;
   const { scrollYProgress } = useScroll();
   const progressX = useSpring(scrollYProgress, { stiffness: 110, damping: 22, restDelta: 0.001 });
 
@@ -71,10 +80,11 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-3">
           <Button size="sm" variant="accent-outline" asChild className="gap-2">
             <a
-              href={`tel:${content.company.contact.mobileRaw}`}
-              aria-label={`Appeler Artisan Saint Louis au ${content.company.contact.phoneMobile}`}
+              href={callHref}
+              {...(callExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              aria-label={callAriaLabel}
             >
-              <Phone className="h-4 w-4" aria-hidden="true" /> {content.company.contact.phoneMobile}
+              <Phone className="h-4 w-4" aria-hidden="true" /> Appeler
             </a>
           </Button>
           <Button size="sm" variant="accent" asChild>
@@ -125,20 +135,11 @@ const Navbar = () => {
               <div className="flex flex-col gap-2 pt-3">
                 <Button size="sm" variant="accent-outline" asChild className="w-full gap-2">
                   <a
-                    href={`tel:${content.company.contact.mobileRaw}`}
-                    aria-label={`Appeler Artisan Saint Louis au ${content.company.contact.phoneMobile}`}
+                    href={callHref}
+                    {...(callExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    aria-label={callAriaLabel}
                   >
-                    <Phone className="h-4 w-4" aria-hidden="true" /> {content.company.contact.phoneMobile}
-                  </a>
-                </Button>
-                <Button size="sm" asChild className="w-full gap-2 bg-[#25D366] hover:bg-[#1ebe5a] text-white">
-                  <a
-                    href={content.company.contact.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Écrire sur WhatsApp à Artisan Saint Louis au ${content.company.contact.phoneMobile}`}
-                  >
-                    WhatsApp
+                    <Phone className="h-4 w-4" aria-hidden="true" /> Appeler
                   </a>
                 </Button>
                 <Button size="sm" variant="accent" asChild className="w-full">

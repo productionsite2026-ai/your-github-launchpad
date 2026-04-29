@@ -25,7 +25,7 @@ import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";
 import recommendAccueil from "@/assets/recommend-accueil.jpg";
 import imgInstall from "@/assets/home-card-installation.webp";
-import imgDepannage from "@/assets/card-fuite-evier.webp";
+import imgDepannage from "@/assets/home-card-depannage.webp";
 import imgEntretien from "@/assets/home-card-entretien.webp";
 import imgChaudierePanne from "@/assets/home-urgent-chaudiere.webp";
 import imgFuite from "@/assets/home-urgent-fuite.webp";

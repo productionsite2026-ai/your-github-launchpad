@@ -4,12 +4,21 @@ import { Menu, X, Phone, Droplets } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "@tanstack/react-router";
 import { content, navLinks } from "@/data/content";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const reduced = useReducedMotion();
+  const isMobile = useIsMobile();
+  const callHref = isMobile
+    ? `tel:${content.company.contact.mobileRaw}`
+    : content.company.contact.whatsappUrl;
+  const callAriaLabel = isMobile
+    ? `Appeler Artisan Saint Louis au ${content.company.contact.phoneMobile}`
+    : `Écrire sur WhatsApp à Artisan Saint Louis au ${content.company.contact.phoneMobile}`;
+  const callExternal = !isMobile;
   const { scrollYProgress } = useScroll();
   const progressX = useSpring(scrollYProgress, { stiffness: 110, damping: 22, restDelta: 0.001 });
 

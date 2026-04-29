@@ -4,6 +4,8 @@ import { fadeUp, staggerItem } from "@/lib/animations";
 import { Badge } from "@/components/ui/badge";
 import ResponsiveImage from "@/components/ResponsiveImage";
 
+type BadgeVariantKey = "serviceBlue" | "serviceOrange" | "serviceEmerald" | "serviceRose" | "serviceCyan" | "serviceViolet" | "serviceAmber";
+
 interface UseCase {
   title: string;
   description: string;
@@ -12,6 +14,8 @@ interface UseCase {
   imageAlt?: string;
   stat?: { value: string; label: string };
   badge?: string;
+  badgeVariant?: BadgeVariantKey;
+  badgeIcon?: "alert" | "check" | "none";
 }
 
 interface UseCasesSectionProps {

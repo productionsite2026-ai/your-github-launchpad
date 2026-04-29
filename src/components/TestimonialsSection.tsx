@@ -23,7 +23,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Claire M.",
     district: "Paris 4ᵉ — Le Marais",
-    date: "12 mars 2024",
+    date: "14 mars 2025",
     rating: 5,
     service: "Dépannage urgent",
     text: "Fuite sous évier un samedi soir, l'équipe est arrivée en 45 minutes. Diagnostic clair, devis annoncé avant de démonter, réparation propre. Aucune mauvaise surprise sur la facture.",
@@ -31,7 +31,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Thomas R.",
     district: "Paris 11ᵉ — République",
-    date: "28 janvier 2024",
+    date: "9 février 2025",
     rating: 5,
     service: "Installation chaudière",
     text: "Remplacement d'une vieille chaudière par une condensation Viessmann. Étude sérieuse, dossier MaPrimeRénov monté de A à Z, chantier nickel en deux jours. Économies déjà visibles sur la facture de gaz.",
@@ -39,7 +39,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Sophie L.",
     district: "Boulogne-Billancourt (92)",
-    date: "5 novembre 2023",
+    date: "21 novembre 2024",
     rating: 5,
     service: "Entretien chaudière",
     text: "Entretien annuel impeccable, attestation remise sur place, technicien ponctuel et pédagogue. Il a pris le temps de m'expliquer comment optimiser mes radiateurs. Je reprends un contrat l'année prochaine.",
@@ -47,7 +47,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Jean-Pierre D.",
     district: "Paris 16ᵉ — Auteuil",
-    date: "18 février 2024",
+    date: "6 janvier 2025",
     rating: 5,
     service: "Rénovation salle de bain",
     text: "Rénovation complète d'une salle de bain dans un haussmannien. Travail soigné, respect absolu du planning et du devis initial. L'artisan a su gérer les contraintes copropriété sans aucun stress de mon côté.",
@@ -55,7 +55,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Léa B.",
     district: "Paris 18ᵉ — Montmartre",
-    date: "9 décembre 2023",
+    date: "12 décembre 2024",
     rating: 5,
     service: "Recherche de fuite",
     text: "Tache au plafond impossible à localiser. Caméra thermique et gaz traceur, fuite trouvée en 30 minutes sans casser un seul carreau. Rapport remis pour l'assurance, super pro.",
@@ -63,7 +63,7 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Karim H.",
     district: "Vincennes (94)",
-    date: "22 octobre 2023",
+    date: "3 octobre 2024",
     rating: 5,
     service: "Pose pompe à chaleur",
     text: "Installation d'une PAC air/eau dans ma maison. Étude thermique poussée, dimensionnement précis, pose propre et mise en service expliquée. Vraiment des artisans qui maîtrisent leur sujet.",

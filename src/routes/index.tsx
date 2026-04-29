@@ -19,11 +19,11 @@ import {
 import heroAccueil from "@/assets/hero-accueil-paris.webp";
 import ogImage from "@/assets/og-image.webp";
 import recommendAccueil from "@/assets/recommend-accueil.jpg";
-import imgInstall from "@/assets/home-card-installation.jpg";
+import imgInstall from "@/assets/home-card-installation.webp";
 import imgDepannage from "@/assets/card-fuite-evier.webp";
-import imgEntretien from "@/assets/home-card-entretien.jpg";
-import imgChaudierePanne from "@/assets/home-urgent-chaudiere.jpg";
-import imgFuite from "@/assets/home-urgent-fuite.jpg";
+import imgEntretien from "@/assets/home-card-entretien.webp";
+import imgChaudierePanne from "@/assets/home-urgent-chaudiere.webp";
+import imgFuite from "@/assets/home-urgent-fuite.webp";
 import imgDebouchage from "@/assets/card-debouchage.webp";
 import imgWc from "@/assets/card-wc-suspendu.webp";
 import imgPac from "@/assets/card-pompe-chaleur-facade.webp";
@@ -153,7 +153,7 @@ const homeServices: ServiceCard[] = [
     description: "Salle de bain, chaudière, pompe à chaleur, plancher chauffant. Pose neuve ou rénovation complète.",
     features: ["Devis détaillé gratuit", "Matériel garanti", "Artisans qualifiés RGE"],
     image: imgInstall,
-    imageAlt: "Chaudière à condensation installée par Artisan Saint Louis à Paris",
+    imageAlt: "Plombier d'Artisan Saint Louis posant une chaudière gaz à condensation murale dans une cuisine d'appartement parisien, raccordement cuivre en cours",
     stat: { value: "+450", label: "chantiers / an" },
   },
   {
@@ -164,7 +164,7 @@ const homeServices: ServiceCard[] = [
     description: "Fuite, débouchage, panne chaudière, plus d'eau chaude. Intervention rapide à Paris et IDF.",
     features: ["Intervention sous 1h", "7j/7 — 24h/24", "Diagnostic transparent"],
     image: imgDepannage,
-    imageAlt: "Plombier réparant une fuite sous évier à Paris",
+    imageAlt: "Intervention de dépannage plomberie sur une fuite sous évier de cuisine à Paris, remplacement du flexible et du siphon",
     stat: { value: "<60min", label: "Paris intra-muros" },
   },
   {
@@ -175,18 +175,18 @@ const homeServices: ServiceCard[] = [
     description: "Entretien annuel chaudière obligatoire, contrat maintenance, attestation fournie immédiatement.",
     features: ["Attestation légale remise", "Devis clair sans surprise", "Contrôle 22 points"],
     image: imgEntretien,
-    imageAlt: "Technicien réalisant l'entretien annuel d'un brûleur de chaudière",
+    imageAlt: "Technicien chauffagiste réalisant l'entretien annuel obligatoire d'une chaudière gaz murale, capot ouvert et analyseur de combustion en main",
     stat: { value: "22 pts", label: "de contrôle" },
   },
 ];
 
 const useCases = [
-  { title: "Fuite d'eau visible", description: "Sous évier, WC, ballon ou chauffe-eau : nous coupons et réparons.", urgent: true, image: imgFuite, imageAlt: "Recherche de fuite non destructive à la caméra thermique", badge: "Urgence" },
-  { title: "Canalisation bouchée", description: "Évier, douche, WC : débouchage mécanique ou hydrocurage.", urgent: true, image: imgDebouchage, imageAlt: "Débouchage de canalisation par camion hydrocureur" },
-  { title: "WC bouché ou cassé", description: "Remplacement WC suspendu, broyeur, chasse d'eau défectueuse.", image: imgWc, imageAlt: "Pose d'un WC suspendu dans une salle de bain rénovée" },
-  { title: "Chaudière en panne", description: "Mise en sécurité, code erreur, plus d'eau chaude : diagnostic immédiat.", urgent: true, image: imgChaudierePanne, imageAlt: "Diagnostic d'une chaudière gaz en panne de nuit à la lampe torche", badge: "Urgence" },
-  { title: "Pose pompe à chaleur", description: "Étude thermique, dimensionnement et installation PAC air/eau.", image: imgPac, imageAlt: "Unité extérieure de pompe à chaleur installée en façade" },
-  { title: "Radiateurs froids", description: "Purge, équilibrage hydraulique, remplacement de robinets thermostatiques.", image: imgRadiateur, imageAlt: "Radiateur avec robinet thermostatique réglé" },
+  { title: "Fuite d'eau visible", description: "Sous évier, WC, ballon ou chauffe-eau : nous coupons et réparons.", urgent: true, image: imgFuite, imageAlt: "Fuite d'eau urgente sous un évier la nuit, plombier inspectant le siphon et le flexible mouillé à la lampe torche", badge: "Urgence" },
+  { title: "Canalisation bouchée", description: "Évier, douche, WC : débouchage mécanique ou hydrocurage.", urgent: true, image: imgDebouchage, imageAlt: "Débouchage de canalisation extérieure à Paris par camion hydrocureur haute pression" },
+  { title: "WC bouché ou cassé", description: "Remplacement WC suspendu, broyeur, chasse d'eau défectueuse.", image: imgWc, imageAlt: "Pose d'un WC suspendu sur bâti-support dans une salle de bain rénovée à Paris" },
+  { title: "Chaudière en panne", description: "Mise en sécurité, code erreur, plus d'eau chaude : diagnostic immédiat.", urgent: true, image: imgChaudierePanne, imageAlt: "Chaudière gaz murale affichant un code erreur rouge, dépanneur testant la carte électronique au multimètre", badge: "Urgence" },
+  { title: "Pose pompe à chaleur", description: "Étude thermique, dimensionnement et installation PAC air/eau.", image: imgPac, imageAlt: "Unité extérieure de pompe à chaleur air/eau installée en façade d'un pavillon en Île-de-France" },
+  { title: "Radiateurs froids", description: "Purge, équilibrage hydraulique, remplacement de robinets thermostatiques.", image: imgRadiateur, imageAlt: "Radiateur en fonte avec robinet thermostatique neuf en cours de réglage par un chauffagiste" },
 ];
 
 const faqs = [
